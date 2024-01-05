@@ -3,7 +3,7 @@ import tensorflowjs as tfjs
 import numpy as np
 
 # Load the Teachable Machine model using TensorFlow.js
-model_path = ''  # Replace this with the path to your model directory
+model_path = 'demomaskap/'  # Replace this with the path to your model directory
 model = tfjs.converters.load_keras_model(model_path)
 
 # Function to preprocess the image for prediction
